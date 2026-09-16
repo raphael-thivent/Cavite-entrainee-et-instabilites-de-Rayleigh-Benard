@@ -1,0 +1,12 @@
+1 = L
+0.001 = r_tol
+10 = frequence_ecriture
+100 = Re
+1 = pho
+1.0 = CFL_restrictif
+0.1 = Fo_restrictif
+10 = t_max
+0.0 = BCE 
+1.0 = BCL
+0.01 = nu
+0.0001 = tol_integrale_vol_P
