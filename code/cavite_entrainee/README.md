@@ -35,9 +35,9 @@ Les résultats sont exportés au format `.dat`, compatible notamment avec **Tecp
 
 ```text
 .
-├── etape6.f90       # Code Fortran principal
+├── cavite_entrainee.f95       # Code Fortran principal
 ├── input.dat        # Paramètres de simulation
-├── *tecplot.Dat     # Fichiers résultats 
+├── *tecplot.dat     # Fichiers résultats 
 └── README.md        # Documentation
 ```
 
@@ -68,7 +68,7 @@ Le choix du schéma se fait avec `type_discretisation` :
 Le code doit d'abord être compilé avec un compilateur Fortran, par exemple avec `gfortran` :
 
 ```bash
-gfortran etape6.f90
+gfortran cavite_entrainee.f95
 ```
 
 Cette commande crée un exécutable nommé a.out.
