@@ -54,7 +54,10 @@ Puis exécuté avec :
 ```
 
 La simulation est lancée avec les paramètres définis dans `input.dat`. Il faut ainsi augmenter le nombre de Rayleigh pour observer l'apparition des cellules convectives et inversement. Pour cela il faut directement modifier les paramètres dans le `input.dat`, avec comme rappel :
-
+```math
+Ra = \frac{gL^3\beta\Delta T}{\nu\alpha}
+```
+Les paramètres sont fixés de tel sorte que le `Ra` équivaut directement au `g`. Il suffit donc juste de modifier seulement le `g` pour changer le `Ra`.
 
 Les fichiers de résultats sont générés automatiquement toutes les `20` itérations.
 
