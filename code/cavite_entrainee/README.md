@@ -65,10 +65,10 @@ Le choix du schéma se fait avec `type_discretisation` :
 
 ## Compilation et exécution
 
-Le code doit d'abord être compilé avec un compilateur Fortran, par exemple avec `gfortran` :
+Le code doit d'abord être compilé avec un compilateur Fortran, par exemple avec :
 
 ```bash
-gfortran cavite_entrainee.f95
+f95 cavite_entrainee.f95
 ```
 
 Cette commande crée un exécutable nommé a.out.
